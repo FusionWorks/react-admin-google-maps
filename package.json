@@ -2,7 +2,7 @@
   "name": "@fusionworks/ra-google-maps-input",
   "version": "0.1.1",
   "author": "nzuza",
-  "private": true,
+  "private": false,
   "main": "dist/index.js",
   "homepage": "https://github.com/FusionWorks/react-admin-google-maps#readme",
   "description": "React-admin field/input to show markers on a map.",
