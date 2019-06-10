@@ -91,7 +91,7 @@ export const ShowEntity = props => (
         <TextField source="name" />
         <GMapField
           source="coordinates"
-          googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+          googleKey="<YOUR_GOOGLE_APP_KEY>"
         />
     </SimpleShowLayout>
   </Show>
