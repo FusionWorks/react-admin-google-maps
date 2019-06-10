@@ -1,0 +1,36 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fusionworks/ra-google-maps-input": "^0.1.2",
+    "prop-types": "^15.7.2",
+    "ra-data-fakerest": "^2.6.0",
+    "react": "^16.8.6",
+    "react-admin": "^2.9.2",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
