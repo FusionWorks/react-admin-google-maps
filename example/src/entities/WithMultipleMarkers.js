@@ -34,7 +34,7 @@ export const EditEntity = props => (
       <GMapInput
         multipleMarkers
         source="coordinates"
-        googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+        googleKey="<YOUR_GOOGLE_APP_KEY>"
       />
     </SimpleForm>
   </Edit>
@@ -47,7 +47,7 @@ export const ShowEntity = props => (
         <TextField source="name" />
         <GMapField
           source="coordinates"
-          googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+          googleKey="<YOUR_GOOGLE_APP_KEY>"
         />
     </SimpleShowLayout>
   </Show>
@@ -61,7 +61,7 @@ export const CreateEntity = props => (
       <GMapInput
         multipleMarkers
         source="coordinates"
-        googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+        googleKey="<YOUR_GOOGLE_APP_KEY>"
       />
     </SimpleForm>
   </Create>

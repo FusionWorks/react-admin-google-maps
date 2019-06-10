@@ -32,7 +32,7 @@ export const EntityEdit = props => (
       <GMapInput
         source="coordinates"
         searchable
-        googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+        googleKey="<YOUR_GOOGLE_APP_KEY>"
       />
     </SimpleForm>
   </Edit>
@@ -45,7 +45,7 @@ export const EntityShow = props => (
         <TextField source="name" />
         <GMapField
           source="coordinates"
-          googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+          googleKey="<YOUR_GOOGLE_APP_KEY>"
         />
     </SimpleShowLayout>
   </Show>
@@ -59,7 +59,7 @@ export const EntityCreate = props => (
       <GMapInput
         source="coordinates"
         searchable
-        googleKey="AIzaSyCZIjrjRSVyuWSIAUz0wCriw7GrwcI_D2s"
+        googleKey="<YOUR_GOOGLE_APP_KEY>"
       />
     </SimpleForm>
   </Create>
