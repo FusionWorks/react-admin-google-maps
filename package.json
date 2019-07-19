@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "author": "nzuza",
   "private": false,
-  "main": "dist/index.js",
+  "main": "index.js",
   "homepage": "https://github.com/FusionWorks/react-admin-google-maps#readme",
   "description": "React-admin field/input to show markers on a map.",
   "license": "ISC",
@@ -32,7 +32,10 @@
     "google, maps"
   ],
   "dependencies": {
-    "react-google-maps": "^9.4.5"
+    "react-google-maps": "^9.4.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "ra-core": "^2.9.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.46",
@@ -42,17 +45,9 @@
     "@babel/preset-env": "^7.0.0-beta.46",
     "@babel/preset-react": "^7.0.0-beta.46",
     "babel-loader": "^8.0.0-beta.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "ra-core": "^2.9.2",
     "react-scripts": "3.0.1",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2"
-  },
-  "peerDependencies": {
-    "ra-core": "^2.9.2",
-    "react": "^16.3.0",
-    "react-dom": "^16.8.6"
   },
   "browserslist": {
     "production": [

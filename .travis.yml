@@ -5,7 +5,6 @@ dist: dist
 sudo: required
 script:
   - npm ci
-  - npm run test
   - npm run build
 cache:
   pip: true
