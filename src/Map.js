@@ -3,8 +3,8 @@ import {
   withGoogleMap,
   withScriptjs,
   Marker,
-  GoogleMap
-} from "react-google-maps";
+  GoogleMap,
+} from 'react-google-maps';
 
 const Map = withScriptjs(withGoogleMap(
   props => {
@@ -28,15 +28,17 @@ const Map = withScriptjs(withGoogleMap(
             position={mrk}
             onClick={e => onMarkerClick(e)}
           />
-        ))
+        ));
       }
 
-      return (<Marker
-        key={`mrk`}
-        position={markers}
-        onClick={e => onMarkerClick(e)}
-      />)
-    }
+      return (
+        <Marker
+          key="mrk"
+          position={markers}
+          onClick={e => onMarkerClick(e)}
+        />
+      );
+    };
 
     return (
       <GoogleMap
@@ -46,8 +48,8 @@ const Map = withScriptjs(withGoogleMap(
       >
         {putMarkers()}
       </GoogleMap>
-    )
-  }
+    );
+  },
 ));
 
 export default Map;
